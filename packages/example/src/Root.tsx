@@ -292,6 +292,7 @@ import {SvgPaintSchema} from './VisualModeTests/SvgPaintSchema';
 import {VideoConfigExpressions} from './VisualModeTests/VideoConfigExpressions';
 import {VoiceVisualization} from './voice-visualization';
 import {WhisperWeb} from './WhisperWeb';
+import {StickmanExplosion} from './StickmanExplosion';
 
 class Vector2 {
 	readonly x: number;
@@ -2522,6 +2523,14 @@ export const Index: React.FC = () => {
 				/>
 			</Folder>
 			<Still id="whisper-web" component={WhisperWeb} width={800} height={800} />
+			<Composition
+				id="stickman-explosion"
+				component={StickmanExplosion}
+				width={1920}
+				height={1080}
+				fps={30}
+				durationInFrames={150}
+			/>
 			<Composition
 				id="empty"
 				component={Empty}
