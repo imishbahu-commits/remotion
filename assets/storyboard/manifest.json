@@ -1,0 +1,177 @@
+{
+  "project": "The Netflix Trick That Hacked Your Brain",
+  "format": {
+    "aspect": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationInFrames": 1800
+  },
+  "notes": [
+    "All images upscaled to 1080x1920 from 768x1376 native generation.",
+    "No text or numerals are baked into background/graphic plates - kinetic type is added in Remotion.",
+    "Apply a single shared LUT/color-grade filter at the Remotion top level for cross-shot cohesion.",
+    "Vary Ken Burns zoom 2-5% and direction per shot.",
+    "Shot 6.1 was image-to-image generated from shot 1.2 to guarantee matching camera framing for the callback."
+  ],
+  "shots": [
+    {
+      "id": "1.1",
+      "scene": "HOOK",
+      "file": "shot-1-1-phone-autoplay-countdown.png",
+      "startFrame": 0,
+      "durationInFrames": 60,
+      "type": "CU",
+      "motion": "static, slow 3% push-in (Ken Burns)",
+      "vo": "Netflix doesn't want you to finish a show.",
+      "onScreenText": "doesn't want you to FINISH",
+      "status": "generated"
+    },
+    {
+      "id": "1.2",
+      "scene": "HOOK",
+      "file": "shot-1-2-thumb-hover-cancel.png",
+      "startFrame": 60,
+      "durationInFrames": 60,
+      "type": "ECU",
+      "motion": "static, countdown ticks 4-3-2",
+      "vo": "It wants you to never stop.",
+      "onScreenText": "NEVER STOP",
+      "status": "generated"
+    },
+    {
+      "id": "2.1a",
+      "scene": "SETUP",
+      "file": "shot-2-1a-left-panel-2011-manual-play.png",
+      "startFrame": 120,
+      "durationInFrames": 180,
+      "type": "Split-screen MS (left panel)",
+      "motion": "static",
+      "vo": "In 2012, Netflix engineers made one small change to the app. Autoplay.",
+      "onScreenText": "2011",
+      "status": "generated"
+    },
+    {
+      "id": "2.1b",
+      "scene": "SETUP",
+      "file": "shot-2-1b-right-panel-today-autoplay.png",
+      "startFrame": 120,
+      "durationInFrames": 180,
+      "type": "Split-screen MS (right panel)",
+      "motion": "slides in from right over 15 frames",
+      "vo": "In 2012, Netflix engineers made one small change to the app. Autoplay.",
+      "onScreenText": "TODAY",
+      "status": "generated"
+    },
+    {
+      "id": "3.1",
+      "scene": "THE MECHANISM",
+      "file": "shot-3-1-zeigarnik-brain-open-loop.png",
+      "startFrame": 300,
+      "durationInFrames": 120,
+      "type": "MS graphic",
+      "vo": "It's called the Zeigarnik Effect.",
+      "onScreenText": "THE ZEIGARNIK EFFECT",
+      "status": "generated"
+    },
+    {
+      "id": "3.2",
+      "scene": "THE MECHANISM",
+      "file": "shot-3-2-finished-vs-unfinished.png",
+      "startFrame": 420,
+      "durationInFrames": 120,
+      "type": "MS graphic",
+      "vo": "Your brain remembers unfinished tasks far better than finished ones.",
+      "onScreenText": "clause-by-clause slide-up",
+      "status": "generated"
+    },
+    {
+      "id": "3.3",
+      "scene": "THE MECHANISM",
+      "file": "shot-3-3-stat-card.png",
+      "startFrame": 540,
+      "durationInFrames": 120,
+      "type": "Stat card CU",
+      "vo": "An open loop feels like an itch you have to scratch.",
+      "onScreenText": "large percentage + label (PLACEHOLDER STAT)",
+      "status": "generated",
+      "note": "Dark glassmorphic card with empty interior; white numeral composited in Remotion."
+    },
+    {
+      "id": "4.1",
+      "scene": "THE PROOF",
+      "file": "shot-4-1-silhouette-couch-tv.png",
+      "startFrame": 660,
+      "durationInFrames": 90,
+      "vo": "Streaming platforms design every cliffhanger...",
+      "status": "generated"
+    },
+    {
+      "id": "4.2",
+      "scene": "THE PROOF",
+      "file": "shot-4-2-countdown-macro.png",
+      "startFrame": 750,
+      "durationInFrames": 90,
+      "vo": "...every countdown...",
+      "status": "generated"
+    },
+    {
+      "id": "4.3",
+      "scene": "THE PROOF",
+      "file": "shot-4-3-are-you-still-watching.png",
+      "startFrame": 840,
+      "durationInFrames": 90,
+      "vo": "...every 'are you still watching' prompt...",
+      "status": "generated"
+    },
+    {
+      "id": "4.4",
+      "scene": "THE PROOF",
+      "file": "shot-4-4-engineer-late-night.png",
+      "startFrame": 930,
+      "durationInFrames": 90,
+      "vo": "...around this. It's not laziness. It's engineering.",
+      "status": "generated"
+    },
+    {
+      "id": "5.1",
+      "scene": "STAKES / TWIST",
+      "file": "shot-5-1-hours-per-day-bg.png",
+      "startFrame": 1050,
+      "durationInFrames": 180,
+      "vo": "The average person now spends over 3 hours a day on screens driven by this exact loop.",
+      "onScreenText": "CountUp 0 -> 3.0 HOURS/DAY (PLACEHOLDER STAT)",
+      "status": "generated"
+    },
+    {
+      "id": "5.2",
+      "scene": "STAKES / TWIST",
+      "file": "shot-5-2-calendar-pages-flipping.png",
+      "startFrame": 1230,
+      "durationInFrames": 210,
+      "vo": "Multiply that by a lifetime, and it's years of your life spent finishing loops that were never meant to end.",
+      "onScreenText": "9 YEARS (PLACEHOLDER STAT)",
+      "status": "generated",
+      "note": "Central negative space reserved for the \"9 YEARS\" numeral overlay."
+    },
+    {
+      "id": "6.1",
+      "scene": "RESOLUTION",
+      "file": "shot-6-1-thumb-presses-cancel-warm.png",
+      "startFrame": 1440,
+      "durationInFrames": 240,
+      "vo": "Awareness is the only override. Once you see the loop, you can choose to close it yourself.",
+      "note": "Grade transitions cool blue -> warm gold across these 240 frames. Generated using shot 1.2 as a visual reference so framing matches exactly (visual rhyme: hover -> press).",
+      "status": "generated"
+    },
+    {
+      "id": "7.1",
+      "scene": "OUTRO / CTA",
+      "file": "shot-7-1-end-card.png",
+      "startFrame": 1680,
+      "durationInFrames": 120,
+      "vo": "Follow for more of the hidden design tricks running your life.",
+      "status": "generated"
+    }
+  ]
+}
